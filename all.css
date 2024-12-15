@@ -18,7 +18,7 @@ html {
   --color-title: #000;
   --color-link: #6d071a;
   --color-text-cite: #57083d;
-  --color-text-subtle: #444;
+  --color-text-subtle: #666;
   --color-shadow: #c2bfad;
 
   --font-family-body: "Baskerville",
@@ -51,10 +51,10 @@ html {
                         "Futura",
                         sans-serif;
 
-  --font-size-1: calc(var(--content-size)/14);
+  --font-size-1: calc(var(--content-size)/15);
   --font-size-2: calc(var(--content-size)/20);
-  --font-size-3: calc(var(--content-size)/26);
-  --font-size-4: calc(var(--content-size)/32);
+  --font-size-3: calc(var(--content-size)/25);
+  --font-size-4: calc(var(--content-size)/30);
 
   --side-padding: calc(1vw + 8px);
 
@@ -200,7 +200,6 @@ body > main > article > picture > img {
 }
 
 body > main > * blockquote,
-body > main > * dl,
 body > main > * ol,
 body > main > * ul {
   margin: 0;
